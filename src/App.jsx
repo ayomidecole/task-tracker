@@ -24,7 +24,7 @@ function TaskList({ items }) {
 }
 
 export default function App() {
-  const [tasks] = useState([{ id: 1, title: 'Sample task' }])
+  const [tasks] = useState([{ id: 1, title: 'Sample task' }, {id: 2, title: 'Sample task 2'}])
 
   return (
     <div style={{ maxWidth: 560, margin: '40px auto', fontFamily: 'system-ui, sans-serif' }}>
